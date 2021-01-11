@@ -4,8 +4,19 @@
   "description": "projet de présentation de node js",
   "main": "index.js",
   "scripts": {
+    "coucou": "echo 'Salut, comment ca va ?'",
+    "start": "nodemon site/index.js -e js,mjs,json,html,css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "ToNo",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.2",
+    "sequelize": "^6.3.5",
+    "sqlite3": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
